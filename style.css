@@ -10,7 +10,7 @@ nav>h3>span {
 }
 
 header nav h3 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
     padding: 10px;
 
@@ -33,6 +33,11 @@ nav>ul>li {
 
 header {
     background: #FFF8F3;
+    padding: 0 100px 80px;
+    background-image: url(header_bg.png), url(virus.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top 160px left;
+    background-size: auto, 130px;
 }
 
 nav>ul>li>a {
@@ -53,25 +58,50 @@ nav>ul>li>a {
 /* Header style start */
 header h3 {
     font-size: 30px;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
 header h1 {
     font-size: 40px;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
 header p {
     font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 100px;
 }
-.btn1{
+
+.btn1 {
     background-color: #FD6E0A;
     border-style: none;
+    margin: 10px;
+    padding: 10px;
 }
-.btn2{
+
+.btn2 {
     background-color: transparent;
     border-color: #FD6E0A;
+    margin: 10px;
+    padding: 10px;
     color: #FD6E0A;
+}
+
+.designarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.designarea img {
+    height: 500px;
+    width: auto;
+        }
+}
+.headerleft{
+    max-width: 500px;
 }
